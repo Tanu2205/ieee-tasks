@@ -1,0 +1,91 @@
+.container{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top:10%;
+    left: 10%;
+}
+img{
+    position: relative;
+    top:10%;
+    left: 7%;
+    height: 67%;
+    width:42%;
+}
+.login{
+    position: absolute;
+    top:10%;
+    right: -2%;
+    border-left: 2px solid #d5d8da;
+    width: 42%;
+    height: 75%;
+    padding-left: 5%;
+}
+h2{
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 550;
+    font-style: normal;
+}
+.input{
+    all:unset;
+    border-bottom:2px solid #bec2c5;;
+    margin-bottom: 7%;
+    margin-top: 2%;
+    width: 75%;
+}
+.x{
+    all:unset;
+    border-bottom:2px solid #bec2c5;;
+    margin-bottom: 4%;
+    margin-top: 2%;
+    width: 75%;
+}
+#checkbox{
+    accent-color: green;
+    border:2px solid green ;
+    height: 5%;
+    width: 5%;
+    cursor: pointer;
+    
+}
+.a{
+    font-family: "Roboto", sans-serif;
+    font-size: smaller;
+    color: #bec2c5;
+}
+.f{
+    position: relative;
+    margin-left: 20%;
+    
+}
+button{
+    margin-top: 5%;
+    height: 40px;
+    width:27%;
+    margin-left: 2%;
+    border: 1px solid  #407aff;
+    border-radius: 20px;
+    background-color: #407aff;
+    color: white;
+    font-weight: 600;
+}
+.s{
+    position: absolute;
+    bottom: 0%;
+}
+
+.r{
+    appearance: none;
+    border-radius: 50%;
+    height: 5px;
+    border: 4px solid #bec2c5;
+    background-color: #bec2c5;
+    accent-color: black;
+    margin: 4px;
+    
+}
+.r:checked {
+    border: 4px solid #407aff;
+  }
